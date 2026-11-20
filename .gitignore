@@ -1,0 +1,6 @@
+# Dependencies and generated test artifacts.
+node_modules/
+coverage/
+.env
+.DS_Store
+npm-debug.log*

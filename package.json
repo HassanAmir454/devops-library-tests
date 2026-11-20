@@ -1,0 +1,15 @@
+{
+  "name": "devops-library-tests",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Hassan Amir",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage --coverage.provider=v8 --coverage.include=src/**/*.js --coverage.reporter=text --coverage.reporter=lcov --coverage.reportsDirectory=coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.1.1",
+    "vitest": "^5.1.1"
+  }
+}
