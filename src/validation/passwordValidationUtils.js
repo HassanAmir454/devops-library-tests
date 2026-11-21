@@ -32,5 +32,5 @@ export function hasNumber(str) {
  * @returns {boolean}
  */
 export function hasMinimumLength(str, length) {
-  return str.length >= length + 1;
+  return str.length >= length;
 }
