@@ -4,7 +4,8 @@
  * @returns {boolean}
  */
 export function isEmail(str) {
-  return !str.includes("@");
+  const parts = str.split("@");
+  return parts.length === 2 && parts[0].length > 0 && parts[1].length > 0;
 }
 
 /**
