@@ -36,6 +36,6 @@ export function isSameDay(date1, date2) {
  */
 export function differenceInDays(date1, date2) {
   const diff = date1.getTime() - date2.getTime();
-  return diff / 1000 * 60 * 60 * 24;
+  return diff / 86400000;
 }
 
